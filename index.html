@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="parent" class="container-fluid">
+    <!-- CHILD1 -->
+    <div id="child1" class="row">
+
+        <div id="upper">
+            <div id="upperleft">
+
+                <div id="icon"><a href><i class="ri-smartphone-line">Get
+                            the App</i></a></div>
+            </div>
+            <div id="upperright">
+                <div id="investor_relation"><a href>Investor
+                        Relation</a></div>
+                <div id="add_resturant"><a href>Add Restaurant</a></div>
+                <div id="log_in"><a href>Log in</a></div>
+                <div id="sign_up"><a href>Sign up</a></div>
+            </div>
+
+        </div>
+        <div id="middle">
+            <img id="heading"
+                src="8313a97515fcb0447d2d77c276532a511583262271.avif"
+                alt>
+            <br>
+            <br>
+            <div id="quote">Discover the best food & drinks in
+                Aurangabad</div>
+            <br>
+            <div id="search_bar" class="input-group mb-3">
+                <button id="location_bar"
+                    class="btn btn-outline-secondary dropdown-toggle"
+                    type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false"><i style="color:red"
+                        class="ri-map-pin-line"></i><input type="text"placeholder=" CIDCO Cannought,Cidco" style="border: none;">
+                </button>
+                <ul class="dropdown-menu">
+                    <div class="card" id="menu" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 style="color:red" class="card-title"><i
+                                    class="ri-focus-3-line"></i> Detect
+                                current location</h5>
+                            <h6 style="padding-left: 25px;"
+                                class="card-subtitle mb-2 text-body-secondary">Using
+                                GPS</h6>
+                        </div>
+                    </div>
+                </ul>
+                <label id="logo" for="search"><i
+                        class="ri-search-line"></i></label>
+                <input type="text"
+                    placeholder="Search for restaurant, cusinie or a dish"
+                    id="search" class="form-control"
+                    aria-label="Text input with dropdown button">
+            </div>
+
+        </div>
+    </div> 
+
+
+    <!-- CHILD 2 -->
+    <div id="child2" class="row">
+        <div id="l_card1">
+            <div id="upone"><img id="i_bolte" src="images\e5b8785c257af2a7f354f1addaf37e4e1647364814.avif" alt=""></div>
+            <div id="downone">
+                <p id="paragrap1">Order Online</p>
+                <p id="paragrap2">Stay home and order to your doorstep</p>
+            </div>
+        </div>
+        <div id="r_card1">
+            <div id="uptwo">
+                <img id="i_bolte2" src="images\d026b357feb0d63c997549f6398da8cc1647364915.avif" alt="">
+            </div>
+            <div id="downtwo">
+                <p id="paragrap3">Dining</p>
+                <p id="paragrap4">View the city's favourite dining venues</p>
+            </div>
+        </div>
+    </div>
+
+
+<!-- CHILD 3 -->
+<div id="child3" class="row">
+    <div><h1 id="collection">Collections</h1></div>
+    <div><p id="para1">Explore curated lists of top restaurants, cafes, pubs, and bars in Aurangabad, based on trends  <a id="link1" href="">All Collections in Nagpur<i class="ri-arrow-right-s-fill"></i></a></p></div>
+    <div id="cards"></div>
+    <div id="cards1" class="a">
+        <div class="title1">Veggie Friendly</div>
+        <div class="subtitle1">10 Places<i class="ri-arrow-right-s-fill"></i></div>
+    </div>
+    <div id="cards2" class="a">
+        <div class="title1">Pocket Friendly</div>
+        <div class="subtitle1">5 Places<i class="ri-arrow-right-s-fill"></i></div>
+    </div>
+    <div id="cards3" class="a">
+        <div class="title1">Brilliant Biryanis</div>
+        <div class="subtitle1">5 Places<i class="ri-arrow-right-s-fill"></i></div>
+    </div>
+</div>
+
+
+<!-- CHILD 4 -->
+<div id="child4" class="row">
+    <div id="upper4">Popular localities in and around <b>Nagpur</b></div>
+    <div id="midsec4">
+    
+    <div id="car1" class="btn btn-light">
+        <div class="lhs">
+            <div class="title2">Dharampeth</div>
+            <div class="subt">172 places</div>
+        </div>
+        <div class="rhs"><i class="ri-arrow-right-s-line"></i></div>
+    </div>
+        <div id="car2" class="btn btn-light">
+            <div class="lhs">
+                <div class="title2">Sadar</div>
+            <div class="subt">113 places</div>
+            </div>
+            <div class="rhs"><i class="ri-arrow-right-s-line"></i></div>
+        </div>
+            <div id="car3" class="btn btn-light">
+                <div class="lhs">
+                    <div  class="title2">Civil Lines</div>
+            <div class="subt">61 places</div>
+                </div>
+                <div class="rhs"><i class="ri-arrow-right-s-line"></i></div>
+            </div>
+                <div id="car4" class="btn btn-light">
+                    <div class="lhs">
+                        <div  class="title2">Sitabuldi</div>
+            <div class="subt">129 places</div>
+                    </div>
+                    <div class="rhs"><i class="ri-arrow-right-s-line"></i></div>
+                </div>
+                    <div id="car5" class="btn btn-light">
+                        <div class="lhs">
+                            <div  class="title2">Bajaj Nagar</div>
+            <div class="subt">179 places</div>
+                        </div>
+                        <div class="rhs"><i class="ri-arrow-right-s-line"></i></div>
+                    </div>
+                        <div id="car6" class="btn btn-light">
+                            <div class="lhs">
+                                <div  class="title2">Pratap Nagar</div>
+            <div class="subt">197 places</div>
+                            </div>
+                            <div class="rhs"><i class="ri-arrow-right-s-line"></i></div>
+                        </div>
+                            <div id="car7" class="btn btn-light">
+                                <div class="lhs">
+                                    <div  class="title2">Ramdaspeth</div>
+            <div class="subt">64 places</div>
+                                </div>
+                                <div class="rhs"><i class="ri-arrow-right-s-line"></i></div>
+                            </div>
+                                <div id="car8" class="btn btn-light">
+                                    <div class="lhs">
+                                        <div  class="title2">Dhantoli</div>
+            <div class="subt">80 places</div>
+                                    </div>
+                                    <div class="rhs"><i class="ri-arrow-right-s-line"></i></div>
+                                </div>
+                                    
+                                        <div id="car9">
+                                            <div  class="title2" style="text-align: center; padding-left:30px; font-size:20px">See more<i class="ri-arrow-down-s-line"></i></div>
+                                    </div>
+    
+    </div>
+    </div>
+
+    <!-- CHILD 5 -->
+    <div id="child5" class="row">
+        <div id="getparent">
+        <div id="ig">
+    <img id="img_mobile" src="images/f773629053b24263e69f601925790f301680693809.avif" alt="mobile">
+</div>
+<div id="getm">
+<h1>Get the Zomato app</h1>
+<pre>We will send you a link, open it on your phone to 
+download the app</pre>
+<div id="get_check">    
+<div class="form-check">
+<input class="form-check-input get_check" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+<label class="form-check-label" for="flexRadioDefault1">
+Email
+</label>
+</div>
+
+<div class="form-check ">
+<input class="form-check-input get_check" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+<label class="form-check-label" for="flexRadioDefault2">
+Phone
+</label>
+</div>
+</div>
+<div id="button">
+<div id="input_box" class="form-floating ">
+<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+<label for="floatingInput">Email address</label>
+</div>
+<div><button id="share">Share App Link</button></div>
+</div>
+
+<div id="download">Download app from</div>
+<div id="dn_logos">
+<div ><img class="dn_logos" src="images/23e930757c3df49840c482a8638bf5c31556001144.webp" alt=""></div>
+<div ><img class="dn_logos" src="images/9f0c85a5e33adb783fa0aef667075f9e1556003622.webp" alt=""></div>
+</div>
+
+</div>
+</div>
+    </div>
+
+
+    <!-- CHILD 6 -->
+    <div id="child6" class="row">
+        <div><h1 id="head_bolte">Explore options near me</h1></div>
+        <div id="papa">
+            <div class="accordion" id="accordionExample">
+                <div id="beta1" class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h4>Popular cuisines near me</h4>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <a href=""> Bakery food near me</a> . <a href="">Beverages food near me</a> . <a href="">Biryani food near me</a> . <a href="">Burger food near me</a> . <a href="">Chinese food near me</a> . <a href="">Desserts food near me</a> . <a href="">Ice Cream food near me</a> . <a href="">Kebab food near me</a> . <a href="">Maharashtrian food near me</a> .<a href="">Momos food near me</a> .<a href="">Mughlai food near me</a> .<a href="">North Indian food near me</a> .<a href="">Pizza food near me</a> . <a href="">Rolls food near me</a> . <a href="">Sandwich food near me</a> . <a href="">Seafood food near me</a> . <a href="">Shake food near me</a> . <a href="">Sichuan food near me</a> . <a href="">South Indian food near me</a> . <a href="">Street food near me</a>
+                    </div>
+                </div>
+                </div>
+                <div id="beta2" class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h4>Popular restaurant types near me</h4>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <a href="">Bakeries near me</a> . <a href="">Bars near me</a> . <a href="">Beverage Shops near me</a> . <a href="">Bhojanalya near me</a> . <a href="">Cafés near me</a> . <a href="">Casual Dining near me</a> . <a href="">Dessert Parlors near me</a> . <a href="">Dhabas near me</a> . <a href="">Fine Dining near me</a> . <a href="">Food Courts near me</a> . <a href="">Food Trucks near me</a> . <a href="">Kiosks near me</a> . <a href="">Lounges near me</a> . <a href="">Paan Shop near me</a> . <a href="">Quick Bites near me</a> . <a href="">Sweet Shops near me</a> 
+                    </div>
+                </div>
+                </div>
+                <div id="beta3" class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h4>Top Restaurant Chains</h4>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body" id="body">
+                    <div id="spa1"><a href="">KFC</a></div>  <div id="spa1"><a href="">Pizza Hut</a></div>
+                    </div>
+                </div>
+                </div>
+                <div id="beta4" class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <h4>Cities We Deliver To</h4>
+                    </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div id="accro_p">
+                        <div id="col1">
+                        
+                                <div class="list1">Delhi NCR</div>
+                                <div class="list1">Hyderabad</div>
+                                <div class="list1">Ahmedabad</div>
+                                <div class="list1">Nashik</div>
+                                <div class="list1">Amritsar</div>
+                                <div class="list1">Ranchi</div>
+                                <div class="list1">Vadodara</div>
+                                <div class="list1">Puducherry</div>
+                                <div class="list1">Srinagar</div>
+                                <div class="list1">Haridwar</div>
+                                <div class="list1">Kozhikode</div>
+                                <div class="list1">Jodhpur</div>
+                                <div class="list1">Jalandhar</div>
+                        
+                        </div>
+                        <div id="col2">
+                            <div class="list2">Kolkata</div>
+                                <div class="list2">Chennai</div>
+                                <div class="list2">Chandigarh</div>
+                                <div class="list2">Ooty</div>
+                                <div class="list2">Kanpur</div>
+                                <div class="list2">Visakhapatnam</div>
+                                <div class="list2">Nagpur</div>
+                                <div class="list2">Surat</div>
+                                <div class="list2">Khajuraho</div>
+                                <div class="list2">Leh</div>
+                                <div class="list2">Alappuzha</div>
+                                <div class="list2">Kota</div>
+                                <div class="list2">Jammu</div>
+                        </div>
+                        <div id="col3">
+                            <div class="list3">Mumbai</div>
+                                <div class="list3">Lucknow</div>
+                                <div class="list3">Goa</div>
+                                <div class="list3">Shimla</div>
+                                <div class="list3">Allahabad</div>
+                                <div class="list3">Bhubaneswar</div>
+                                <div class="list3">Agra</div>
+                                <div class="list3">Varanasi</div>
+                                <div class="list3">Neemrana</div>
+                                <div class="list3">Pushkar</div>
+                                <div class="list3">Thrissur</div>
+                                <div class="list3">Ajmer</div>
+                                <div class="list3">Manali</div>
+                        </div>
+                        <div id="col4">
+                            <div class="list4">Bengaluru</div>
+                                <div class="list4">Kochi</div>
+                                <div class="list4">Indore</div>
+                                <div class="list4">Ludhiana</div>
+                                <div class="list4">Aurangabad</div>
+                                <div class="list4">Coimbatore</div>
+                                <div class="list4">Dehradun</div>
+                                <div class="list4">Patna</div>
+                                <div class="list4">Cuttack</div>
+                                <div class="list4">Rajkot</div>
+                                <div class="list4">Manipal</div>
+                                <div class="list4">Mussoorie</div>
+                                <div id="list4"><a id="all_del" href="" style="color: black; text-decoration:underline;">All delivery cities</a></div>
+                        </div>
+                        <div id="col5">
+                            <div class="list5">Delhi NCR</div>
+                                <div class="list5">Hyderabad</div>
+                                <div class="list5">Ahmedabad</div>
+                                <div class="list5">Nashik</div>
+                                <div class="list5">Amritsar</div>
+                                <div class="list5">Ranchi</div>
+                                <div class="list5">Vadodara</div>
+                                <div class="list5">Puducherry</div>
+                                <div class="list5">Srinagar</div>
+                                <div class="list5">Haridwar</div>
+                                <div class="list5">Kozhikode</div>
+                                <div class="list5">Jodhpur</div>
+                                <div class="list5">Jalandhar</div>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    </div>
+                    
+                </div>
+                
+            </div>
+        
+        </div>
+        </div>
+
+
+
+<!-- CHILD 7 -->
+<div id="child7" class="row">
+    <div id="uppar_ka">
+            <div id="logo2"><img id="img_zomato" src="images/b40b97e677bc7b2ca77c58c61db266fe1603954218.avif" alt="zomato"></div>
+            <div id="dropmates">
+                <div id="country">
+                    <div  class="dropup-center dropup">
+                        <button id="country_c" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img id="flag" src="images/flag.png" alt=""> Country
+                        </button>
+                        
+                        <ul class="dropdown-menu">
+                            
+                        <li><a class="dropdown-item oo1" href="#"><img id="india_he" src="images/flag.png" alt=""> India</a></li>
+                        <li><a class="dropdown-item oo1" href="#"><img id="UAE_she"  src="images/united-arab-emirates.png" alt="">UAE</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div id="lang">
+                    <div class="dropup-center dropup">
+                        <button id="lang_c" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img id="flag" src="images/globe.png" alt=""> Language
+                        </button>
+                        <ul class="dropdown-menu">
+                        <li><button  class="btn lang_button"><a class="dropdown-item" href="#">English</a></button></li>
+                        <li><button  class="btn lang_button"><a class="dropdown-item" href="#">Türkçe</a></button></li>
+                        <li><button  class="btn lang_button"><a class="dropdown-item" href="#">हिंदी</a></button></li>
+                        <li><button  class="btn lang_button"><a class="dropdown-item" href="#">Português (BR)</a></button></li>
+                        <li><button  class="btn lang_button"><a class="dropdown-item" href="#">Indonesian</a></button></li>
+                        <li><button  class="btn lang_button"><a class="dropdown-item" href="#">Português (PT)</a></button></li>
+                        <li><button  class="btn lang_button"><a class="dropdown-item" href="#">Español</a></button></li>
+                        <li><button  class="btn lang_button"><a class="dropdown-item" href="#">Čeština</a></button></li>
+                        <li><button  class="btn lang_button"><a class="dropdown-item" href="#">Slovenčina</a></button></li>
+                        <li><button  class="btn lang_button"><a class="dropdown-item" href="#">Polish</a></button></li>
+                        <li><button  class="btn lang_button"><a class="dropdown-item" href="#">Italian</a></button></li>
+                        <li><button  class="btn lang_button"><a class="dropdown-item" href="#">Vietnamese</a></button></li>
+    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div id="middle_part">
+        <div id="part_1">
+            <div ><h5>ABOUT ZOMATO</h5></div>
+            <div class="p1_child">Who We Are</div>
+            <div class="p1_child"> Blog</div>
+            <div class="p1_child">Work With Us</div>
+            <div class="p1_child">Investor Relations</div>
+            <div class="p1_child">Report Fraud</div>
+            <div class="p1_child">Press Kit</div>
+            <div class="p1_child">Contact Us</div>
+        </div>
+    
+        <div id="part_2">
+            <div ><h5>ZOMAVERSE</h5></div>
+            <div class="p1_child">Zomato</div>
+            <div class="p1_child">Blinkit</div>
+            <div class="p1_child">Feeding India</div>
+            <div class="p1_child">Hyperpure</div>
+            <div class="p1_child">Zomato Live</div>
+            <div class="p1_child">Zomaland</div>
+            <div class="p1_child">Weather Union</div>
+        </div>
+    
+        <div id="part_3">
+            <div ><h5>FOR RESTAURANTS</h5></div>
+            <div class="p1_child">Partner With Us</div>
+            <div class="p1_child">Apps For You</div>
+        </div>
+    
+        <div id="part_4">
+            <div ><h5>LEARN MORE</h5></div>
+            <div class="p1_child">Privacy</div>
+            <div class="p1_child">Security</div>
+            <div class="p1_child">Terms</div>
+            <div class="p1_child">Sitemap</div>
+        
+        </div>
+    
+        <div id="part_5">
+            <div><h5>SOCIAL LINKS</h5></div>
+            <div  id="social">
+            <div class="social" id="linkedin"></div>
+            <div class="social" id="insta"></div>
+            <div class="social" id="twitter"></div>
+            <div class="social" id="youtube"></div>
+            <div class="social" id="facebook"></div>    
+        </div>
+    
+        
+        <div id="part_6">
+            <div id="another_log">
+                <div class="downlaod">
+                    <img id="play_bol" src="images/23e930757c3df49840c482a8638bf5c31556001144.webp"alt="">
+                </div>
+                <div class="downlaod"><img id="app_bol" src="images/9f0c85a5e33adb783fa0aef667075f9e1556003622.webp"  alt=""></div>
+            </div>
+        </div>
+        
+    </div>
+                </div>
+                <hr id="hr">
+                <div id="bottombolte">
+    <p class="para_cumon" id="para_1">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-</p>
+    <p class="para_cumon" id="para_2">2024 © Zomato™ Ltd. All rights reserved.</p>
+                </div>
+            
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    
+    
+                
+
+
+        
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
